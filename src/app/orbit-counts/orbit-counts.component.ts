@@ -27,5 +27,7 @@ export class OrbitCountsComponent implements OnInit {
 	return count;
  }
 
+satelliteTypes = ['Communication', 'Positioning', 'Probe', 'Space Debris', 'Space Station', 'Telescope'];
+
 
 }
